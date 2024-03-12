@@ -23,6 +23,7 @@
             "stopOnEntry": false,
             "mainClass": "com.mycompany.app.App",
             "args": "",
+            "vmArgs": "--module-path ./GUI_JAVA/src/main/javafx/ --add-modules javafx.controls",
             "projectName": "my-app"
         }
     ]
