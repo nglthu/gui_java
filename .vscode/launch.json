@@ -23,7 +23,7 @@
             "stopOnEntry": false,
             "mainClass": "com.mycompany.app.App",
             "args": "",
-            "vmArgs": "--module-path ./GUI_JAVA/src/main/javafx/ --add-modules javafx.controls",
+            "vmArgs": " --module-path ${workspaceFolder}/lib/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml",
             "projectName": "my-app"
         }
     ]
