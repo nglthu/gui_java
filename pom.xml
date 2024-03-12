@@ -8,6 +8,22 @@
   <name>my-app</name>
   <url>https://github.com/microsoft/vscode-remote-try-java</url>
   <dependencies>
+
+    <dependency>
+      <groupId>com.zenjava</groupId>
+      <artifactId>javafx-basic-archetype</artifactId>
+      <version>8.1.5</version>
+      <type>maven-archetype</type>
+    </dependency>
+
+c
+    <dependency>
+      <groupId>org.codeartisans.javafx</groupId>
+      <artifactId>javafx-maven-plugin-parent</artifactId>
+      <version>1.2</version>
+      <type>pom</type>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
